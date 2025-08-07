@@ -1,0 +1,45 @@
+import java.net.InetAddress;
+import java.util.Scanner;
+
+public class Atividade1 {
+    public static void main(String[] args) {
+     
+        String[] ips = {
+            "192.168.0.1",
+            "8.8.8.8",
+            "172.16.1.136",
+            "10.0.0.1"
+        };
+
+        Scanner tipo = new Scanner(System.in);
+
+  
+        System.out.print("Informe o tempo de timeout em milissegundos: ");
+        int timeout = tipo.nextInt();
+
+        int erros = 0;
+
+       
+        for (int i = 0; i < ips.length; i++) {
+            String ip = ips[i];
+            System.out.println("Tentando alcançar: " + ip);
+
+            try {
+                InetAddress address = InetAddress.getByName(ip);
+                if (address.isReachable(timeout)) {
+                    System.out.println("Ok");
+                } else {
+                    System.out.println("Erro");
+                    erros++;
+                }
+            } catch (Exception e) {
+                System.out.println("Exceção ao tentar o IP: " + ip);
+                erros++;
+            }
+        }
+     
+        System.out.println("Total de erros: " + erros + " de " + ips.length + " IPs testados.");
+
+        tipo.close();
+    }
+}

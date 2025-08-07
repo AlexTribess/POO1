@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class OlaMundo {
+
+	public static void main(String[] args) {
+		Scanner en = new Scanner(System.in);
+		
+		System.out.print("Informe um inteiro: ");
+		int numI = en.nextInt();
+		System.out.println("numI: " + numI);
+		
+		
+		
+		en.close();
+	}
+
+}

@@ -1,0 +1,15 @@
+import java.net.InetAddress;
+
+public class Atividade1{
+	public static void main(String[] args) {
+		try {
+			if (InetAddress.getByName("172.16.0.112").isReachable(10000))
+				System.out.println("OK");
+			else
+				System.out.println("Erro");
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Erro no Try");
+		}
+	}
+}
