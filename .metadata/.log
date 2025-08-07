@@ -115,3 +115,125 @@ org.eclipse.jgit.errors.TransportException: https://github.com/AlexTribess/POO1.
 
 !ENTRY org.eclipse.egit.ui 4 0 2025-08-07 10:46:05.067
 !MESSAGE Can't connect to any repository: https://github.com/AlexTribess/POO1.git (https://github.com/AlexTribess/POO1.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-08-07 10:48:28.004
+!MESSAGE An exception occurred during push on URI https://github.com/AlexTribess/POO1.git: https://github.com/AlexTribess/POO1.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/AlexTribess/POO1.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-08-07 10:48:28.006
+!MESSAGE Can't connect to any repository: https://github.com/AlexTribess/POO1.git (https://github.com/AlexTribess/POO1.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-08-07 10:50:46.335
+!MESSAGE An exception occurred during push on URI https://github.com/AlexTribess/POO1.git: https://github.com/AlexTribess/POO1.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/AlexTribess/POO1.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-08-07 10:50:46.337
+!MESSAGE Can't connect to any repository: https://github.com/AlexTribess/POO1.git (https://github.com/AlexTribess/POO1.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-08-07 10:51:59.159
+!MESSAGE An exception occurred during push on URI https://github.com/AlexTribess/POO1.git: https://github.com/AlexTribess/POO1.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/AlexTribess/POO1.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-08-07 10:51:59.161
+!MESSAGE Can't connect to any repository: https://github.com/AlexTribess/POO1.git (https://github.com/AlexTribess/POO1.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-08-07 10:52:53.864
+!MESSAGE An exception occurred during push on URI https://github.com/AlexTribess/POO1.git: https://github.com/AlexTribess/POO1.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/AlexTribess/POO1.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-08-07 10:52:53.866
+!MESSAGE Can't connect to any repository: https://github.com/AlexTribess/POO1.git (https://github.com/AlexTribess/POO1.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-08-07 10:54:51.423
+!MESSAGE An exception occurred during push on URI https://github.com/AlexTribess/POO1.git: https://github.com/AlexTribess/POO1.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/AlexTribess/POO1.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-08-07 10:54:51.425
+!MESSAGE Can't connect to any repository: https://github.com/AlexTribess/POO1.git (https://github.com/AlexTribess/POO1.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-08-07 10:58:47.066
+!MESSAGE An exception occurred during push on URI https://github.com/AlexTribess/POO1.git: https://github.com/AlexTribess/POO1.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/AlexTribess/POO1.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-08-07 10:58:47.068
+!MESSAGE Can't connect to any repository: https://github.com/AlexTribess/POO1.git (https://github.com/AlexTribess/POO1.git: not authorized)
+!SESSION 2025-08-07 11:00:53.964 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-07 11:01:03.716
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-07 11:01:07.503
+!MESSAGE Logback config file: C:\Users\alexk\OneDrive\Documentos\POO1\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-07 11:01:27.273
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\alexk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
