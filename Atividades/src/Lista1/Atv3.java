@@ -12,6 +12,8 @@ public class Atv3 {
 		int num2 = num.nextInt();
 		int soma = num1 + num2;
 		System.out.print("A soma é de: " + soma);
+		
+		num.close();
 	}
 
 }
