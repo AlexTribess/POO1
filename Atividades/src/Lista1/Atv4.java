@@ -1,3 +1,4 @@
+package Lista1;
 import java.util.Scanner;
 
 public class Atv4 {
@@ -20,7 +21,7 @@ public class Atv4 {
 		float media = (nota1 + nota2 + nota3 + nota4) / 4;
 
 		System.out.println("A média é de: " + media);
-		
+
 		nota.close();
 	}
 
