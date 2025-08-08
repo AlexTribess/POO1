@@ -9,9 +9,9 @@ public class Atv9 {
 		System.out.println("Digite a temperatura em Farenheit: ");
 		double far = num.nextDouble();
 		double cel = (5 * (far - 32)) / 9;
-		
+
 		System.out.println("A temperatura em graus célsius é de: " + cel);
-		
+
 		num.close();
 	}
 }
