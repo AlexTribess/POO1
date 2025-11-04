@@ -1,3 +1,5 @@
+package PrimeiraAula.src;
+
 import java.net.InetAddress;
 import java.util.Scanner;
 

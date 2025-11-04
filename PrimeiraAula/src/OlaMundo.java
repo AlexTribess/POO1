@@ -1,3 +1,5 @@
+package PrimeiraAula.src;
+
 import java.util.Scanner;
 
 public class OlaMundo {
